@@ -3,7 +3,7 @@ create database ShopDB;
 use ShopDB; 
 
 -- Create tables 
-
+-- Note: Products2 (MyISAM) was measured as slower, so only Products1 (InnoDB) is kept.
 CREATE TABLE Products1 (
     ID INT AUTO_INCREMENT,
     Name VARCHAR(50),
